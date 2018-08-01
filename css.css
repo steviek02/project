@@ -1,0 +1,144 @@
+
+@media screen and (min-width: 300px) {
+    .heading {
+ position: relative;
+ right: 17%;
+ top:20;
+ text-align: right;
+ font-family:'Courier New', Courier, monospace;
+ font-size: 1250%;
+ border: 0;
+
+}
+
+
+.firstItem {
+    position: relative;
+    right: 17%;
+    top: 20;
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 500%;
+    border: 0;
+
+}
+.feature {
+  position: relative;
+  left: 25%;
+  font-size: 350%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+}
+
+.container {
+margin: 0 auto;
+max-width: 4000px;
+padding: 1 1rem;
+margin-top: 10px;
+justify-content: space-between;
+
+}
+
+.responsive-image {
+max-width: 100%;
+margin-top: -500%;
+margin-left: 10%
+flex-flow: column;
+border: none;
+
+}
+
+.cell img {
+display: block;
+margin-top: 10px;
+justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: 25pt;
+  justify-content: space-between;
+}
+
+
+.cell {
+  width: 50%;
+  margin-top: 10px;
+  justify-content: space-between;
+ 
+}
+}
+.heading {
+    position: relative;
+    right: 17%;
+    top:20;
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100%;
+    border: 0;
+   
+   }
+   
+   
+   .firstItem {
+       position: relative;
+       right: 17%;
+       top: 20;
+       text-align: right;
+       font-family:'Courier New', Courier, monospace;
+       font-size: 75%;
+       border: 0;
+
+   }
+   .logo{
+       position: relative;
+    left: 100px; 
+     padding-right: 1em;
+    margin: 1%;
+    max-width:10%; }
+
+@media screen and (min-width: 1000px) {
+.cell {
+  float: left;
+  font-size: 35pt;
+  flex-direction: row;
+  text-align: center;
+  width: 32%;
+  margin-right: 1%; margin-bottom: 0.5em;
+ 
+   }
+
+   .heading {
+    position: relative;
+    right: 17%;
+    top:20;
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 550%;
+    border: 0;
+   
+   }
+   
+   
+   .firstItem {
+       position: relative;
+       right: 17%;
+       top: 20;
+       text-align: right;
+       font-family:'Courier New', Courier, monospace;
+       font-size: 300%;
+       border: 0;
+   }
+.logo{
+  
+ float: left;
+ padding-right: 1em;
+margin: 1%;
+max-width:10%; }
+
